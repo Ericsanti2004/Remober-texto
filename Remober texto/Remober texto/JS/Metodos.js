@@ -36,16 +36,9 @@ btnHola.addEventListener("mouseover", sinColor);
 btnHola.addEventListener("mouseout", Concolor);
 btnHola.addEventListener("click",comparador );
 
+document.getElementById("text").addEventListener("keydown", barra);
 
-
-
-const Text = document.getElementById("Text")
-
-
-
-// const inputGG = document.getElementById("inputGG") 
-// function
-
-// document.addEventListener('keypress', holamen)  
-// sgg(e))
-   
+function barra()
+{
+  console.log(text)
+}
